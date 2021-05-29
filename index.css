@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Montserrat',
+sans-serif;
+}
+ ul{
+     list-style: none;
+ }
+ 
+ a{
+     text-decoration: none;
+ }
+ a:hover{
+     opacity: 0.7;
+     border-bottom: 2px solid white;
+ }
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
+
+.nav{
+    margin-left: auto;
+    margin-right: 10%;
+}
+.nav ul{
+    display: flex;
+}
+
+.nav ul li a{
+    margin-left:20px;
+    color: white;
+   
+}
+
+.welcome{
+    background: url();
+    background-color: #f3f3f3;
+   width:100% 100%;
+   height: 590px;
+   margin: 30px;
+   position: relative;
+   border-radius: 5px;
+}
+
+.welcome-container{
+    position: absolute;
+    top: 15rem;
+    left: 37rem;
+}
+
+.welcome-container h1{
+    font-size: 42px;
+}
+
+
+
+.info,.Staff{
+     width:100% 100%;
+     height: 590px;
+     margin: 30px;
+     position: relative;
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+}
+
+.aboutus,.staff-outline{
+    background-color: #f3f3f3;
+    margin: 3px;
+    width: 300px;
+    padding: 20px;
+}
+
+.staff-outline{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactUs{
+    width:100% 100%;
+    height: 650pxpx;
+    margin: 30px;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.hero{
+    width: 500px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+    
+}
+
+.address ul li
+{
+    padding: 10px;
+}
+.address h1{
+ font-size: 42px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form input{
+    width: 450px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+form textarea{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    
+}
+
+
+.spacing{
+    margin: 20px;
+    
+}
+.spacing button{
+    width: 450px;
+    height: 40px;
+    background-color:white;
+    border-radius: 5px;
+    outline: none;
+}
+
+.footer{
+     width:100% 100%;
+     height: 200px;
+     position: relative;
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     background-color :#f3f3f3;
+     
+}
+
+.before-footer{
+    padding: 20px;
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+   text-align: center;
+   
+}
+
+.footer-address{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+ .socials{
+     display: flex;
+    justify-content: center;
+ }
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+}
