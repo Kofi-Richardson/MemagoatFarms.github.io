@@ -10,9 +10,6 @@ body{
 font-family: 'Montserrat',
 sans-serif;
 }
- ul{
-     list-style: none;
- }
  
  a{
      text-decoration: none;
@@ -27,14 +24,20 @@ header{
     color: white;
     height: 50px;
     padding: 10px;
+    position: sticky;
 }
-
+ .company-name
+ {
+     margin-left: 80px;
+ }
 .nav{
     margin-left: auto;
     margin-right: 10%;
 }
 .nav ul{
+    list-style: none;
     display: flex;
+    list-style: none;
 }
 
 .nav ul li a{
@@ -44,8 +47,10 @@ header{
 }
 
 .welcome{
-    background: url();
+    background: url(images/welcome.jpg) no-repeat center;
     background-color: #f3f3f3;
+    background-size: cover;
+   
    width:100% 100%;
    height: 590px;
    margin: 30px;
@@ -56,14 +61,31 @@ header{
 .welcome-container{
     position: absolute;
     top: 15rem;
-    left: 37rem;
+    left: 27rem;
+    background-color:rgb(54, 201, 54);
+    color: white;
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .welcome-container h1{
-    font-size: 42px;
+    font-size: 30px;
 }
 
-
+.Analysis{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 250px;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 5px;
+}
+.Analysis ul{
+    list-style: none;
+}
 
 .info,.Staff{
      width:100% 100%;
@@ -85,6 +107,24 @@ header{
 .staff-outline{
     display: flex;
     flex-direction: column;
+}
+.staff-outline h4{
+    font-size: 20px;
+}
+.staff-outline h3{
+    font-size: 16px;
+}
+.visiom{
+    margin: 30px;
+    display: flex;
+    height: 400px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+.sec{
+    padding: 100px;
 }
 
 .contactUs{
@@ -111,6 +151,9 @@ header{
 .address ul li
 {
     padding: 10px;
+}
+.address ul,.before-footer ul{
+    list-style: none;
 }
 .address h1{
  font-size: 42px;
