@@ -1,0 +1,37 @@
+.productname{
+    text-align: center;
+    padding: 20px;
+    background-color: #f3f3f3;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+
+.first-section{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.product{
+    margin: 20px;
+}
+
+.product h2{
+    text-align: center;
+}
+
+
+.payment{
+    background-color: #f3f3f3;
+    margin: 30px;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+}
+
+.payment ul{
+    padding: 30px;
+    list-style: none;
+}
